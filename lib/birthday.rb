@@ -6,6 +6,6 @@ birthday_kids = {
 
 def happy_birthday(birthday_kids)
   birthday_kids.each do |name, age|
-    "Happy birthday, #{name}! You're #{age}!"
+    puts "Happy birthday, #{name}! You're #{age}!"
   end
 end
